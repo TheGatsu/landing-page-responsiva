@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria</title>
+    <link rel="stylesheet" href="estilo.css">
+    <style>
+        body {
+            opacity: 0;
+            transform: translateY(100px);
+            animation: fadeInUp 1s ease-out forwards;
+        }
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(100px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="gallery-container">
+        <h1>Para muitos anos juntos com essa pessoinha</h1>
+        <div class="gallery">
+            <div class="photo-frame">
+                <img src="emilli4.jpg" alt="Foto 1">
+                <p class="photo-text">SORRIDENTE E ALEGRE,</p>
+            </div>
+            <div class="photo-frame">
+                <img src="emilli5.jpg" alt="Foto 2">
+                <p class="photo-text">CHAMENGOSA,</p>
+            </div>
+            <div class="photo-frame">
+                <img src="emilli3.jpg" alt="Foto 3">
+                <p class="photo-text">LINDA E PITEL</p>
+            </div>
+        </div>
+        <h2>Eu te amo te amo te amo te amo muito muito 💖</h2>
+    </div>
+</body>
+</html>
